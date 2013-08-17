@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class Tab1Fragment extends Fragment  {
+public class Tab2Fragment extends Fragment  {
 	String tag = getClass().getSimpleName();
 	
 	@Override
