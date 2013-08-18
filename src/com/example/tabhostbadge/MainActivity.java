@@ -95,9 +95,6 @@ public class MainActivity extends FragmentActivity implements
 		ImageView badge_bg_imgView = (ImageView) v.findViewById(R.id.badge_bg);
 		badge_bg_imgView.setImageResource(R.drawable.ic_launcher);
 		
-		ImageView circle_bg_imgView = (ImageView) v.findViewById(R.id.badge_circle);
-		circle_bg_imgView.setImageResource(R.drawable.circle);
-		
 		TextView tv = (TextView) v.findViewById(R.id.badge_count);
 		tv.setTextColor(Color.WHITE);
 		tv.setText( textName );
