@@ -5,7 +5,7 @@
 
     <FrameLayout
         android:id="@+id/main_frame_layout"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
@@ -13,8 +13,10 @@
             android:id="@+id/badge_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Radio91" />
+            android:layout_gravity="center"
+            android:text="Radio91" 
+			android:textStyle="bold"
+            />
 
         <ImageButton
             android:id="@+id/imageButton1"
