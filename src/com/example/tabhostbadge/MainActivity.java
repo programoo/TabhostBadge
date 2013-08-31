@@ -105,10 +105,6 @@ public class MainActivity extends FragmentActivity implements
 	@Override
 	public void onTabChanged(String tabId) {
 		Log.d(tag, "onTabChanged(): tabId=" + tabId);
-		//FragmentTransaction ft = this.getSupportFragmentManager().beginTransaction();
-		//ft.replace(R.id.tab2, new Tab2Fragment(), tabId);
-       //ft.replace(R.id.tab2,new Tab2Fragment() );
-        //ft.commit();
 	}
 
 }
